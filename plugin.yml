@@ -1,6 +1,6 @@
 name: helpserver
 main: helpserver\Main
-version: 1.0.1
+version: 1.0.0
 api: 3.0.0-ALPHA3
 author: plugmcpe
 commands:
