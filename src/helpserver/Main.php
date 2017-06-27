@@ -5,11 +5,11 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 class Main extends PluginBase{
  public function onEnable(){
-  $this->getServer()->getLogger()->info("Plugin helpserver enable !");
+  $this->getServer()->getLogger()->info("Plugin helpserver enable");
   $this->getLogger()->info("evrething has good");
  }
 public function onDisable(){
-$this->getServer()->getLogger()->info("plugin helpserver disable !");
+$this->getServer()->getLogger()->info("plugin helpserver disable");
 
  }
 pubilc function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
