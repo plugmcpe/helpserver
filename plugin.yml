@@ -5,7 +5,7 @@ api: 3.0.0-ALPHA3
 author: plugmcpe
 commands:
 power:
-description:make player have 100health
+description: make player healed
 use: "/power"
 broadcast:
 description: send message
