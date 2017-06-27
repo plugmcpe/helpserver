@@ -5,10 +5,14 @@ api: 3.0.0-ALPHA3
 author: plugmcpe
 commands:
 power:
-description: make player have 100 health
+description:make player have 100health
+use: "/power"
 broadcast:
 description: send message
+use: "/broadcast"
 gm1:
 description: make player gamemode 1
+use: "/gm1"
 gm0:
 description: make player gamemode 0
+use: "/gm0"
