@@ -28,7 +28,7 @@ switch($cmd->getName()){
   $player = $sender->getPlayer();
   $player->setGamemode(0);
   break;
-}  
+  }  
  }
 }
 
