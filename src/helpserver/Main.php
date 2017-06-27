@@ -12,10 +12,10 @@ public function onDisable(){
 $this->getServer()->getLogger()->info("plugin helpserver disable");
 
  }
-pubilc function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
 switch($cmd->getName()){
  case 'power':
-  $sender->setHealth(100);
+  $sender->setHealth(20);
   break;
  case 'broadcast':
     $this->getServer()->broadcast($args[0]);
