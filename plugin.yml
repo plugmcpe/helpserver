@@ -3,3 +3,12 @@ main: helpserver\Main
 version: 1.0.1
 api: 3.0.0-ALPHA3
 author: plugmcpe
+commands:
+power:
+description: make player have 100 health
+broadcast:
+description: send message
+gm1:
+description: make player gamemode 1
+gm0:
+description: make player gamemode 0
